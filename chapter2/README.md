@@ -9,6 +9,8 @@ Output below shape in the console: <br>
 \##<br>
 \#<br>
 
+### Problem 2: Output Shapes In The Console
+
 Output below shape in the console: <br>
 \#<br>
 \##<br>
