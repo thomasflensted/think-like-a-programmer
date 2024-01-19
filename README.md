@@ -10,7 +10,7 @@ Think Like A Programmer is a book by V. Anton Spraul. It has chapters on differe
 4. Start with what you know: Use the tools and techniques you already have before jumping into unknown territory.
 5. Reduce the problem: Add or remove constraints so the problem becomes simpler and solvable. Then work toward solving the original problem.
 6. Look for analogies.
-7. Experiment.
+7. Experiment to make sure you understand code/libraries you're using.
 
 ## Chapter 2: Pure Puzzles
 ## Chapter 3: Solving Problems with Arrays
