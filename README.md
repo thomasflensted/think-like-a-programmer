@@ -1,4 +1,4 @@
-# Think Like A Porgrammer
+# Think Like A Programmer
 
 Think Like A Programmer is a book by V. Anton Spraul. It has chapters on different types of problems and different ways of solving them. I intend to go through the book and solve all of the problems. I will be using C++ to solve the problems.
 
