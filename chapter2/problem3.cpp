@@ -11,6 +11,24 @@ using namespace std;
 // Combine above -> Loop over string and sum digits, double every other one
 // If total sum is divisible by 10, number is valid
 
+// prototyping
+string getUsersNum();
+int doubleAndSum(int num);
+int ctoi(char character);
+int sumDigits(string num);
+bool ccNumIsValid(int num);
+
+int main() {
+    string ccNum = getUsersNum();
+    int sum = sumDigits(ccNum);
+    if (ccNumIsValid(sum)) {
+        cout << "Credit card number is valid";
+    } else {
+        cout << "Credit card number is invalid";
+    }
+    return 0;
+}
+
 string getUsersNum() {
     string ccNum;
     cout << "Type your credit card number: ";
@@ -42,14 +60,3 @@ int sumDigits(string num) {
 }
 
 bool ccNumIsValid(int num) { return num % 10 == 0; }
-
-int main() {
-    string ccNum = getUsersNum();
-    int sum = sumDigits(ccNum);
-    if (ccNumIsValid(sum)) {
-        cout << "Credit card number is valid";
-    } else {
-        cout << "Credit card number is invalid";
-    }
-    return 0;
-}
